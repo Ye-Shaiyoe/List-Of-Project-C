@@ -1,0 +1,57 @@
+*A. library in C programming language* 
+1.#include <stdio.h>
+    its a library for ouput/input like printf, scanf,puts,etc.
+
+2.#include <stdlib.h> — Utility & memory
+    this is starting to enter low-level
+    like malloc, calloc, realloc, free
+
+3.#include <string.h> — String (char array)
+    string.h
+    is a standard C library containing functions for managing 
+    "strings" (sequences of characters) stored as char arrays and always ending with a 
+    null terminator (\0) character. It provides functions such as strcpy (copy), strcat (join), 
+    strlen (length), and strcmp (compare) for effectively manipulating text.
+
+4.#include <math.h> — its for math
+    math.h
+    is a header file in the C language that contains declarations for standard mathematical functions,
+    such as square root, exponent, trigonometric functions (sin, cos, tan), 
+    logarithm, rounding, and exponential functions.
+    compile = gcc main.c -lm
+
+B.must memorize
+1.  a.int -> integer type 
+        example: int umur = 18;
+    b.float & double -> Decimal numbers
+        example: float celcius = 36.5;
+                 double pi = 3.1415926535;
+    c.char -> 1 char (1byte)
+        example: char huruf = 'A';       (with this '' ,not this "" )  
+    d.void -> It means not returning anything
+        example: void sayHello() {
+                    printf("Halo\n");
+                }
+
+2. printf = this is important 
+  Tipe	    Kode
+  int	    %d
+  float	    %f
+  double	%lf
+  char	    %c
+  string	%s
+  address	%p
+
+example int age = 18;
+printf("my age is %d years old\n", age);
+
+3.\n this is like new line(enter)
+  so that the code lines are neat
+
+
+
+
+
+
+
+
