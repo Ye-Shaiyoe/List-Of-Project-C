@@ -1,4 +1,3 @@
-/* its eazy to learn C programming language right? */
 
 #include <stdio.h>
 
