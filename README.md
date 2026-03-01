@@ -1,4 +1,4 @@
-# Learning C 🧠⚙️
+# Learning C ⚙️
 
 Halo! 👋
 
