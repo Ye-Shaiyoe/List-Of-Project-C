@@ -16,7 +16,7 @@ int file_load(TextBuffer *buffer, const char *filename) {
     int line_loaded = 0;
     
     while (fgets(line, MAX_LINE_LENGTH, file) != NULL) {
-        // Hapus newline di akhir jika ada
+
         size_t len = strlen(line);
         if (len > 0 && line[len-1] == '\n') {
             line[len-1] = '\0';
