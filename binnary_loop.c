@@ -7,7 +7,7 @@ int main() {
     srand(time(NULL));
     printf("\033[0;32m");
     
-    for(int i = 0; i < 1000000; i++) {
+    for(int i = 0; i < 10000000; i++) {
         int bit = rand() % 2;
         printf("%d", bit);
         
