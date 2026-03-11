@@ -4,7 +4,7 @@
 
 char board[9];
 char current_player = 'X';
-int mode = 1; // 1 = PVP, 2 = vs Bot
+int mode = 1; 
 
 void resetboard() {
     for (int i = 0; i < 9; i++) {
