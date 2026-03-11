@@ -1,6 +1,5 @@
 #include "text_editor.h"
 
-// Load file ke buffer
 int file_load(TextBuffer *buffer, const char *filename) {
     if (!buffer || !filename) return 0;
     
@@ -10,7 +9,7 @@ int file_load(TextBuffer *buffer, const char *filename) {
         return 0;
     }
     
-    // Kosongkan buffer dulu
+
     buffer_clear(buffer);
     
     char line[MAX_LINE_LENGTH];
